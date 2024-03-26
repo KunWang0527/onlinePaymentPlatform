@@ -1,0 +1,154 @@
+.navigation-bar {
+  background-color: #021631;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation-bar li {
+  margin-right: 20px;
+}
+
+.navigation-bar span,
+.navigation-bar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navigation-bar span:hover,
+.navigation-bar a:hover {
+  color: #ffcc29;
+}
+
+.main-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-buttons {
+  margin-top: 10px;
+}
+
+.introduction {
+  margin-bottom: 40px;
+}
+
+.intro-container {
+  margin-top: 20px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro-box {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color:#3498db;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.box-title {
+  font-size: 22px;
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#ffffff;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.box-content {
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.box-figure {
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  height: 150px; 
+  border-bottom-left-radius: 8px; 
+  border-bottom-right-radius: 8px;
+  position: absolute;
+  bottom: 0;
+}
+
+.main-service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Individual service box styling */
+.main-service-box {
+  width: 45%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #3498db;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+  background-color: #ffffff;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.main-service-box:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+
+.main-service-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #3498db;
+}
+
+.main-service-box p {
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+  color: #555; 
+}
+
+
+.main-service-box {
+  padding: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color:#3498db;
+  color: #fff;
+}

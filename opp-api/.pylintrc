@@ -1,0 +1,6 @@
+[MASTER]
+# Add other pylint configuration settings here if needed
+
+[MESSAGES CONTROL]
+# Exclude multiple messages
+disable = missing-module-docstring, missing-class-docstring, missing-function-docstring, import-error, line-too-long, invalid-name, duplicate-code, too-few-public-methods, too-many-arguments, raise-missing-from

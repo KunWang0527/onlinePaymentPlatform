@@ -1,0 +1,77 @@
+.payment-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-part {
+  width: 45%;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-part {
+  width: 45%;
+  padding-left: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+#send-money-form {
+  margin-top: 20px;
+}
+
+#more-ways-section p {
+  margin: 0 0 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.header {
+  background-color: #0070ba;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.more-ways-section p {
+  margin-bottom: 40px; 
+}

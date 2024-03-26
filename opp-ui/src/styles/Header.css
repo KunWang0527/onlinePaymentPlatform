@@ -1,0 +1,46 @@
+
+.header {
+  padding: 15px;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+.header button,
+.header a {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header button:hover,
+.header a:hover {
+  color: antiquewhite;
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
+
+.auth-links a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.auth-links a:hover {
+  color: gold;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios POST Example</title>
+    <!-- Include Axios from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Axios POST Example</h1>
+
+    <button onclick="postData()">Send POST Request</button>
+
+    <script>
+        function postData() {
+            const apiUrl = 'http://18.216.139.10:8000/auth/';
+
+            // Data to be sent in the request payload
+            const requestData = {
+                email: 'staaaarssadadsddasfasangsad',
+                username: 'stssaaaaadasfsddasdsarinsadg',
+                first_name: 'string',
+                last_name: 'string',
+                phone_number: 'string',
+                password: 'string',
+                role: 'string',
+            };
+
+            // Make a POST request using Axios
+            axios.post(apiUrl, requestData, {
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => {
+                console.log('Success:', response.data);
+                alert('POST request successful! Check the console for details.');
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error! Check the console for details.');
+            });
+        }
+    </script>
+</body>
+</html>
